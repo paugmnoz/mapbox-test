@@ -8,7 +8,7 @@ export default class MapPage extends Component {
       "pk.eyJ1IjoicGF1Z21ub3oiLCJhIjoiY2s1bW1sNWs3MTFncTNwbzcxZDJrOGljaSJ9.8W7iPx4WEGe2t7egTw7xvg";
     const map = new mapboxgl.Map({
       container: "map-cont",
-      style: "mapbox://styles/paugmnoz/ck6wpmuxt0v4i1it6mxplyle5",
+      style: "mapbox://styles/paugmnoz/ck759xrao0djd1ippru4diusr",
       center: [-96.95977, 32.80470],
       zoom: 9.02,
       pitch: 31.00,
