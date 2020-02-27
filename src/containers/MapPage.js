@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./_MapPage.css";
+import "./_MapPage.scss";
 export default class MapPage extends Component {
   componentDidMount() {
     const mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
@@ -8,9 +8,11 @@ export default class MapPage extends Component {
       "pk.eyJ1IjoicGF1Z21ub3oiLCJhIjoiY2s1bW1sNWs3MTFncTNwbzcxZDJrOGljaSJ9.8W7iPx4WEGe2t7egTw7xvg";
     const map = new mapboxgl.Map({
       container: "map-cont",
-      style: "mapbox://styles/mapbox/streets-v11",
-      center: [-77.04, 38.907],
-      zoom: 11.15
+      style: "mapbox://styles/paugmnoz/ck6wpmuxt0v4i1it6mxplyle5",
+      center: [-96.95977, 32.80470],
+      zoom: 9.02,
+      pitch: 31.00,
+      bearing: -12.80
     });
 
     this.onMapLoad(map, mapboxgl);
