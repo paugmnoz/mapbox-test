@@ -82,23 +82,23 @@ export default class MapPage extends Component {
           .setLngLat(coordinates)
           .setHTML(
             `
-        <div className="mapPopup">
-          <span className="weather-icon">
+        <div class="mapPopup">
+          <span class="weather-icon">
             <img src="./weather-icons/blowing-dirt.svg" alt="" />
           </span>
           <h3>Blowing Sand - 01/01/2018</h3>
-          <p className="severity">
-            <span className="bold highlight"> Severity: </span> Unknown
+          <p class="severity">
+            <span class="bold highlight"> Severity: </span> Unknown
           </p>
-          <span className="flex row">
+          <span class="flex row">
             <p>
-              <span className="bold"> Injuries: </span> 0
+              <span class="bold"> Injuries: </span> 0
             </p>
             <p>
-              <span className="bold"> Fatalities: </span> 1
+              <span class="bold"> Fatalities: </span> 1
             </p>
           </span>
-          <p className="bold"> Factors:</p>
+          <p class="bold"> Factors:</p>
           <ul>
             <li>Failed To Drive In Single Lane</li>
             <li>Failed To Control Speed.</li>
