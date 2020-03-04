@@ -196,6 +196,12 @@ body {
   margin: 0.3rem 0;
   padding: 10px 0 5px 0;
   cursor: pointer;
+
+  &.mobile {
+    max-height: 65px;
+    max-width: 80px;
+    margin: 0 .5rem 0 0;
+  }
   &:hover {
     &.active {
       box-shadow: 0px 2px 6px rgba(142, 160, 253, 0.7);
@@ -213,7 +219,7 @@ body {
   }
   &.dark {
     border: 0.5px solid #7881ac;
-
+    
     p {
       color: #7881ac !important;
     }
@@ -246,7 +252,14 @@ body {
   align-items: center;
   margin: 0.3rem 0 0 0;
   width: 100%;
-
+  &.mobile {
+    flex-direction: row;   
+    padding: 0.5rem 0; 
+    margin: 0.5rem 0 0 0;
+    h4 {
+      margin: 0 1rem 0 0;
+    }  
+  }
   h4 {
     color: white !important;
     font-size: 14px !important;
@@ -261,7 +274,15 @@ body {
     color: white !important;
   }
 }
-
+#mobile-light-menu {
+  .title {
+    font-weight: 800;
+    font-size: 16px;
+    color: #6b82eb;
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+  }
+}
 #light-menu {
   width: 110px;
   padding: 5px;
@@ -298,9 +319,38 @@ body {
   width: 100%;
   padding: 0.5rem;
   box-shadow: 3px 0px 6px #6b683729;
+  z-index: 2;
+  display: none;
   .btns-cont {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+}
+#actual-hour{
+  bottom: 70px !important;
+}
+#actual-light, #actual-hour {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 40px;
+  position: absolute;
+  bottom: 150px;
+  right: 20px;
+  box-shadow: 0px 3px 6px #6b683729;
+  color: #6b82eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  
+  img {
+    width: 40px;
+    height: auto;
   }
 }
 @media (max-width: 1000px) {
@@ -312,6 +362,10 @@ body {
 @media (max-width: 800px) {
   .mapboxgl-popup .mapboxgl-popup-content {
     width: auto;
+  }
+
+  #mobile-light-menu {
+    //display: inherit;
   }
 
   #map-title {
