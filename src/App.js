@@ -105,7 +105,19 @@ export default class App extends Component {
             </article>
           </section>
         </div>
-       
+        <div  id="mobile-light-menu">
+        <h4>Light conditions</h4>
+        <div className="btns-cont">
+        <article
+            id='all-btn'
+            className="light-btn active"
+            onClick={(e) => this.changeStyle("ck6wpmuxt0v4i1it6mxplyle5", e)}
+          >
+            <p>All</p>
+          </article>
+        </div>
+          
+        </div>
       </div>
     );
   }
