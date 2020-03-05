@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.scss";
 import MapPage from "./containers/MapPage";
-import Tooltip from "./containers/components/Tooltip";
 import CircleType from 'circletype'
 
 export default class App extends Component {
@@ -33,6 +32,7 @@ export default class App extends Component {
         e.classList.remove("active");
       });
       event.currentTarget.classList.add("active");
+      console.log('Child',  Object.values(event.currentTarget.children)[0])
       this.setState({
         allActive: false
       });
@@ -140,6 +140,7 @@ export default class App extends Component {
                     : "./filter-icons/disabled/dawn.svg"
                 }
                 alt=""
+                className="icon"
               />
               <p>Dawn</p>
             </article>
