@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mapbox-test/static/css/main.e7dd2de8.chunk.css",
+    "main.js": "/mapbox-test/static/js/main.5a4c7f56.chunk.js",
+    "main.js.map": "/mapbox-test/static/js/main.5a4c7f56.chunk.js.map",
+    "runtime-main.js": "/mapbox-test/static/js/runtime-main.908e5775.js",
+    "runtime-main.js.map": "/mapbox-test/static/js/runtime-main.908e5775.js.map",
+    "static/js/2.eb4208a2.chunk.js": "/mapbox-test/static/js/2.eb4208a2.chunk.js",
+    "static/js/2.eb4208a2.chunk.js.map": "/mapbox-test/static/js/2.eb4208a2.chunk.js.map",
+    "index.html": "/mapbox-test/index.html",
+    "precache-manifest.b7ae33557440c0f42e9793324767d944.js": "/mapbox-test/precache-manifest.b7ae33557440c0f42e9793324767d944.js",
+    "service-worker.js": "/mapbox-test/service-worker.js",
+    "static/css/main.e7dd2de8.chunk.css.map": "/mapbox-test/static/css/main.e7dd2de8.chunk.css.map",
+    "static/js/2.eb4208a2.chunk.js.LICENSE.txt": "/mapbox-test/static/js/2.eb4208a2.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/mapbox-test/static/media/dot.cf77e17c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.908e5775.js",
+    "static/js/2.eb4208a2.chunk.js",
+    "static/css/main.e7dd2de8.chunk.css",
+    "static/js/main.5a4c7f56.chunk.js"
+  ]
+}
